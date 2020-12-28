@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://vedant1723:vedant1723@cluster0.hzc7t.mongodb.net/movies?retryWrites=true&w=majority",
+    "jwtSecret":"vedant723"
+}
