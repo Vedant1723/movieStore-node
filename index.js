@@ -6,6 +6,8 @@ const app = express();
 
 connectDB();
 
+app.use(require("cors")());
+
 app.use(express.json({ extended: false }));
 
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
